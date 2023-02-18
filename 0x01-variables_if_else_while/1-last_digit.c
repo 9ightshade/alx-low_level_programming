@@ -30,3 +30,4 @@ if (x < 6 && x != 0)
 }
 printf("\n");
 return (0);
+}
