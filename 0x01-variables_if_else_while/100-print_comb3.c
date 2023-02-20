@@ -1,18 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - A program that prints all possible outcomes fot different combinations of two digits
+ * main - A program to print all possible outcome of the combinations of two digits
  *
  * Return: 0
- */
+*/
+
 int main(void)
 {
 	int n, m;
 
 	for (n = 48; n <= 56; n++)
 	{
-		for (n = 49; m <= 57; m++)
+		for (m = 49; m <= 57; m++)
 		{
-			if (m > n)
+			if (n < m)
 			{
 				putchar(n);
 				putchar(m);
