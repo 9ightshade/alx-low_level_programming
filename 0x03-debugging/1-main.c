@@ -1,14 +1,14 @@
 #include <stdio.h>
 /*
  * main - causes an infinite loop
- * Returned ;0
+ * Returned 0
  */
 
 int main (void)
 {
 	int i;
 
-	pintf("infinte loop incoming :(\n");
+	printf("infinte loop incoming :(\n");
 
 	i = o;
 
